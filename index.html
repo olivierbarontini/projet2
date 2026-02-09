@@ -21,22 +21,34 @@
   </head>
 
   <body>
-    
     <div class="main-container">
-    <nav>
-      <img src="./img/Booki.png" alt="logo de Booki" />
-      <ul>
-        <li><a href="#hebergements">Hébergements</a></li>
-        <li><a href="#activites">Activités</a></li>
-      </ul>
-    </nav>
+      <nav>
+        <img src="./img/Booki.png" alt="logo de Booki" />
+        <ul>
+          <li><a href="#hebergements">Hébergements</a></li>
+          <li><a href="#activites">Activités</a></li>
+        </ul>
+      </nav>
 
       <header>
         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
         <p>En plein centre-ville ou en pleine nature</p>
-        <div class="search-bar"></div>
-        <div class="filter"></div>
-        <img src="./img/Infobar.png" alt="info" />
+        <form class="search-form" action="#" method="get">
+          <div class="search-bar">
+            <span><i class="fa-solid fa-location-dot"></i></span>
+            <input
+              type="text"
+              name="location"
+              placeholder="Marseille, France"
+              required
+            />
+            <button type="submit" class="btn-search">Rechercher</button>
+          </div>
+        </form>
+        <p>
+          <span><i class="fa-solid fa-info"></i></span>Plus de 500 logements
+          sont disppnibles dans cette ville
+        </p>
       </header>
 
       <main>
@@ -140,7 +152,7 @@
             <a href="#">
               <article class="card">
                 <img
-                  src="./img/activites/reno-laithienne.jpg"
+                  src="./img/activites/vieux-port.jpg"
                   alt="Image du vieux port de Marseille avec des bateaux et des bâtiments en arrière-plan"
                 />
                 <div class="card-content">
@@ -149,11 +161,11 @@
               </article>
             </a>
 
-            <div class="destinations-cards">
+            <div class="activites-cards">
               <a href="#">
                 <article class="card">
                   <img
-                    src="./img/activites/paul-hermann.jpg"
+                    src="./img/activites/fort-de-pomegues.jpg"
                     alt="Image du fort de Pomègues avec des bâtiments en arrière-plan"
                   />
                   <div class="card-content">
@@ -162,7 +174,7 @@
                 </article>
               </a>
             </div>
-            <div class="destinations-cards">
+            <div class="activites-cards">
               <a href="#">
                 <article class="card">
                   <img
@@ -175,7 +187,7 @@
                 </article>
               </a>
             </div>
-            <div class="destinations-cards">
+            <div class="activites-cards">
               <a href="#">
                 <article class="card">
                   <img
