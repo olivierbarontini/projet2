@@ -13,6 +13,19 @@
   color: var(--main-color);
 }
 
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
 body {
   display: flex;
   justify-content: center;
@@ -122,14 +135,14 @@ a {
   margin-bottom: 5px;
 }
 
-/****** Destinations ***********/
-.destinations {
+/****** Activités ***********/
+.activites {
   display: flex;
   flex-direction: column; /* Le h2 reste en haut */
   gap: 10px; /* Espace entre le h2 et les cartes */
 }
 
-.destinations-cards {
+.activites-cards {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
