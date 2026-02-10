@@ -19,52 +19,69 @@
     />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
-
   <body>
     <div class="main-container">
+      <!-- NAVIGATION -->
       <nav>
-        <img src="./img/Booki.png" alt="logo de Booki" />
+        <img src="./img/Booki.png" alt="Logo de Booki" />
         <ul>
           <li><a href="#hebergements">Hébergements</a></li>
           <li><a href="#activites">Activités</a></li>
         </ul>
       </nav>
 
+      <!-- HEADER -->
       <header>
         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
         <p>En plein centre-ville ou en pleine nature</p>
+
         <form class="search-form" action="#" method="get">
           <div class="search-bar">
-            <span><i class="fa-solid fa-location-dot"></i></span>
+            <span class="search-icon">
+              <i class="fa-solid fa-location-dot icon-location"></i>
+            </span>
+
             <input
               type="text"
               name="location"
               placeholder="Marseille, France"
               required
             />
+
             <button type="submit" class="btn-search">Rechercher</button>
           </div>
         </form>
-        <p>
-          <span><i class="fa-solid fa-info"></i></span>Plus de 500 logements
-          sont disppnibles dans cette ville
+
+        <p class="info">
+          <i class="fa-solid fa-info"></i>
+          Plus de 500 logements sont disponibles dans cette ville
         </p>
       </header>
 
+      <!-- MAIN -->
       <main>
+        <!-- HÉBERGEMENTS + POPULAIRES -->
         <div class="hebergements-and-populaires" id="hebergements">
-          <section class="hebergements"></section>
+          <!-- HÉBERGEMENTS -->
+          <section class="hebergements">
+            <h2 class="section-title">Hébergements à Marseille</h2>
+            <!-- Tu ajouteras tes cartes ici -->
+          </section>
+
+          <!-- POPULAIRES -->
           <section class="populaires">
             <div class="populaires-title">
               <h2 class="section-title">Les plus populaires</h2>
               <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
             </div>
+
             <div class="populaires-cards">
+              <!-- CARTE 1 -->
               <a href="#">
                 <article class="card">
                   <img
                     src="./img/hebergements/emile-guillemot.jpg"
-                    alt="Image de la chambre d'hôtel montrant un lit"
+                    alt="Chambre d'hôtel avec lit"
                   />
                   <div class="card-content">
                     <div class="card-txt">
@@ -74,24 +91,23 @@
                       </p>
                     </div>
                     <div class="card-rating">
-                      <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                      <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                      <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                      <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                      <i
-                        class="fa-xs fa-solid fa-star neutral-star"
-                        aria-hidden="true"
-                      ></i>
+                      <i class="fa-solid fa-star fa-xs"></i>
+                      <i class="fa-solid fa-star fa-xs"></i>
+                      <i class="fa-solid fa-star fa-xs"></i>
+                      <i class="fa-solid fa-star fa-xs"></i>
+                      <i class="fa-solid fa-star fa-xs neutral-star"></i>
                       <span class="sr-only">Note de 4 sur 5</span>
                     </div>
                   </div>
                 </article>
               </a>
+
+              <!-- CARTE 2 -->
               <a href="#">
                 <article class="card">
                   <img
                     src="./img/hebergements/aw-creative.jpg"
-                    alt="Image de la chambre d'hôtel montrant un lit"
+                    alt="Chambre d'hôtes avec lit"
                   />
                   <div class="card-content">
                     <div class="card-txt">
@@ -103,24 +119,23 @@
                       </p>
                     </div>
                     <div class="card-rating">
-                      <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                      <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                      <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                      <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                      <i
-                        class="fa-xs fa-solid fa-star neutral-star"
-                        aria-hidden="true"
-                      ></i>
+                      <i class="fa-solid fa-star fa-xs"></i>
+                      <i class="fa-solid fa-star fa-xs"></i>
+                      <i class="fa-solid fa-star fa-xs"></i>
+                      <i class="fa-solid fa-star fa-xs"></i>
+                      <i class="fa-solid fa-star fa-xs neutral-star"></i>
                       <span class="sr-only">Note de 4 sur 5</span>
                     </div>
                   </div>
                 </article>
               </a>
+
+              <!-- CARTE 3 -->
               <a href="#">
                 <article class="card">
                   <img
                     src="./img/hebergements/febrian-zakaria2.jpg"
-                    alt="Image de la chambre d'hôtel montrant un lit"
+                    alt="Chambre d'hôtel avec lit"
                   />
                   <div class="card-content">
                     <div class="card-txt">
@@ -130,14 +145,11 @@
                       </p>
                     </div>
                     <div class="card-rating">
-                      <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                      <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                      <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                      <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                      <i
-                        class="fa-xs fa-solid fa-star neutral-star"
-                        aria-hidden="true"
-                      ></i>
+                      <i class="fa-solid fa-star fa-xs"></i>
+                      <i class="fa-solid fa-star fa-xs"></i>
+                      <i class="fa-solid fa-star fa-xs"></i>
+                      <i class="fa-solid fa-star fa-xs"></i>
+                      <i class="fa-solid fa-star fa-xs neutral-star"></i>
                       <span class="sr-only">Note de 4 sur 5</span>
                     </div>
                   </div>
@@ -146,14 +158,17 @@
             </div>
           </section>
         </div>
-        <div class="activites" id="activites">
+
+        <!-- ACTIVITÉS -->
+        <section class="activites" id="activites">
           <h2 class="section-title">Activités à Marseille</h2>
+
           <div class="activites-cards">
             <a href="#">
               <article class="card">
                 <img
                   src="./img/activites/vieux-port.jpg"
-                  alt="Image du vieux port de Marseille avec des bateaux et des bâtiments en arrière-plan"
+                  alt="Vieux port de Marseille"
                 />
                 <div class="card-content">
                   <h3 class="card-title">Vieux-port</h3>
@@ -161,48 +176,46 @@
               </article>
             </a>
 
-            <div class="activites-cards">
-              <a href="#">
-                <article class="card">
-                  <img
-                    src="./img/activites/fort-de-pomegues.jpg"
-                    alt="Image du fort de Pomègues avec des bâtiments en arrière-plan"
-                  />
-                  <div class="card-content">
-                    <h3 class="card-title">Fort de Pomègues</h3>
-                  </div>
-                </article>
-              </a>
-            </div>
-            <div class="activites-cards">
-              <a href="#">
-                <article class="card">
-                  <img
-                    src="./img/activites/kilyan-sockalingum.jpg"
-                    alt="Image du parc naturel des calanques avec des falaises et de la mer en arrière-plan"
-                  />
-                  <div class="card-content">
-                    <h3 class="card-title">Parc naturel des calanques</h3>
-                  </div>
-                </article>
-              </a>
-            </div>
-            <div class="activites-cards">
-              <a href="#">
-                <article class="card">
-                  <img
-                    src="./img/activites/florian-wehde.jpg"
-                    alt="Image de notre dame de la garde avec des bâtiments en avant-plan"
-                  />
-                  <div class="card-content">
-                    <h3 class="card-title">Notre-Dame-de-la-Garde</h3>
-                  </div>
-                </article>
-              </a>
-            </div>
+            <a href="#">
+              <article class="card">
+                <img
+                  src="./img/activites/fort-de-pomegues.jpg"
+                  alt="Fort de Pomègues"
+                />
+                <div class="card-content">
+                  <h3 class="card-title">Fort de Pomègues</h3>
+                </div>
+              </article>
+            </a>
+
+            <a href="#">
+              <article class="card">
+                <img
+                  src="./img/activites/kilyan-sockalingum.jpg"
+                  alt="Parc naturel des calanques"
+                />
+                <div class="card-content">
+                  <h3 class="card-title">Parc naturel des calanques</h3>
+                </div>
+              </article>
+            </a>
+
+            <a href="#">
+              <article class="card">
+                <img
+                  src="./img/activites/florian-wehde.jpg"
+                  alt="Notre-Dame-de-la-Garde"
+                />
+                <div class="card-content">
+                  <h3 class="card-title">Notre-Dame-de-la-Garde</h3>
+                </div>
+              </article>
+            </a>
           </div>
-        </div>
+        </section>
       </main>
+
+      <!-- FOOTER -->
       <footer class="footer">
         <div class="footer-column">
           <h3>À propos</h3>
