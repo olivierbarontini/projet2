@@ -483,4 +483,21 @@ header .fa-info {
   .info {
     margin-top: 20px;
   }
+  .populaires-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .populaires-cards a {
+    width: 90%;
+  }
+  .hebergements-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .hebergements-cards .card img {
+    height: 180px;
+    object-fit: cover;
+  }
 }
