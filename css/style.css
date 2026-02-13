@@ -234,7 +234,7 @@ header .fa-info {
 }
 .hebergements-cards .card img {
   height: 200px;
-  border-radius: 20px 20px 0 0;
+  border-radius: 17px 17px 0 0;
 }
 .show-more {
   background: transparent;
@@ -263,8 +263,8 @@ header .fa-info {
 .populaires-cards img {
   width: 33%;
   height: 136px;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
+  border-top-left-radius: 17px;
+  border-bottom-left-radius: 17px;
 }
 .populaires-cards .card-content {
   width: 67%;
