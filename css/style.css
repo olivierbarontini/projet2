@@ -560,7 +560,6 @@ header .fa-info {
 
   footer {
     flex-direction: column;
-    align-items: left;
     text-align: center;
   }
   .footer-column {
