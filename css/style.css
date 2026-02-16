@@ -415,6 +415,7 @@ header .fa-info {
     width: 100%;
     display: flex;
     justify-content: center;
+    gap: 0;
   }
 
   nav li {
@@ -527,6 +528,7 @@ header .fa-info {
   .populaires-cards {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 20px;
   }
   .populaires-cards a {
